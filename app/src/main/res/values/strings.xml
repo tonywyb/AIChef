@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AIChef</string>
+    <string name="take_photo">Start by taking a photo</string>
+    <string name="start_cooking">What ingredients do you want to cook with\n today?</string>
+    <string name="default_title">Default title</string>
+    <string name="recognize_ingredients">Choose Ingredients</string>
+    <string name="next">Next</string>
+    <string name="recognizing_ingredients">Recognizing ingredients \n from photo &#8230;</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="add">Add</string>
+    <string name="additional_ingred">Add Ingredients</string>
+    <string name="search_history">Search History</string>
+    <string name="favorite">Favorite Recipe</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="not_logged_in">Not Logged In</string>
+    <string name="signed_out_success">You have signed out successfully!</string>
+    <string name="validating">Validating &#8230;</string>
+    <string name="closing_activity">This page will be closed in 5 seconds &#8230;</string>
+    <string name="start_cooking_drawer">Start Cooking</string>
+    <string name="upload_image_fail">Failed to upload image. Please try again later!!</string>
+    <string name="loading_history_image">Loading History Image &#8230;</string>
+    <string name="wait_refresh_done">Refreshing now. Please wait.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

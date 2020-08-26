@@ -1,0 +1,40 @@
+{
+    "UserAgent": "aws-amplify-cli/0.1.0",
+    "Version": "0.1.0",
+    "IdentityManager": {
+        "Default": {}
+    },
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "us-east-1:4d23f2d6-7b67-421f-b724-b2969eea6348",
+        "Region": "us-east-1"
+      }
+    }
+  },
+  "S3TransferUtility": {
+    "Default": {
+      "Bucket": "finalproject.photo",
+      "Region": "us-east-1"
+    }
+  },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "us-east-1_1E3Py6mTJ",
+            "AppClientId": "7tvh0bt0ndk38c3aa0ddq0dnqu",
+            "Region": "us-east-1"
+        }
+    },
+    "Auth": {
+      "Default": {
+        "OAuth": {
+          "WebDomain": "foodrecognition.auth.us-east-1.amazoncognito.com",
+          "AppClientId": "7tvh0bt0ndk38c3aa0ddq0dnqu",
+          "SignInRedirectURI": "myapp://callback",
+          "SignOutRedirectURI": "myapp://signout",
+          "Scopes": ["openid", "email"],
+          "TokenScopesArray": ["openid", "email","profile"]
+        }
+      }
+    }
+}
