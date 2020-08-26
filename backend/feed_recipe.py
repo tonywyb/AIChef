@@ -6,8 +6,8 @@ import numpy as np
 data =pd.read_csv('./recipe/RAW_recipes.csv',header=0,sep=',')
 
 dynamodb = boto3.resource('dynamodb', region_name='us-east-1',
-                          aws_secret_access_key="XXTsIHVZGnlqw8do2V1Ch9zl+/rVRnteEPxlXELc",
-                          aws_access_key_id="AKIAWNFF4BE7J2BEL6FL")
+                          aws_secret_access_key="YOUR_AWS_SECRET_ACCESS_KEY",
+                          aws_access_key_id="YOUR_AWS_ACCESS_KEY_ID")
 recipe_table = dynamodb.Table("recipe")
 data = data.replace(np.nan,None)
 

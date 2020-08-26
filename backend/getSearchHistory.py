@@ -6,8 +6,8 @@ def lambda_handler(event, context):
     # TODO implement
     user_id = event["user_id"]
     dynamodb = boto3.resource('dynamodb', region_name='us-east-1',
-                              aws_secret_access_key="XXTsIHVZGnlqw8do2V1Ch9zl+/rVRnteEPxlXELc",
-                              aws_access_key_id="AKIAWNFF4BE7J2BEL6FL")
+                              aws_secret_access_key="YOUR_AWS_SECRET_ACCESS_KEY",
+                              aws_access_key_id="YOUR_AWS_SECRET_ACCESS_KEY_ID")
     visitors_table = dynamodb.Table("user")
     response = visitors_table.get_item(Key={"user_id": user_id})
     user = (response["Item"] if "Item" in response else None)

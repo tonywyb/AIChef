@@ -3,10 +3,8 @@ import urllib3
 
 
 def lambda_handler(event, context):
-    print(event)
-    print(context)
     url = "https://api.clarifai.com/v2/models/bd367be194cf45149e75f01d59f77ba7/outputs"
-    api_key = 'c91b86ce42d14bebb406d76d5b953adf'
+    api_key = 'YOUR_AWS_SECRET_ACCESS_KEY'
     headers = {
         "Content-Type": "application/json",
         "Authorization": "Key {}".format(api_key)

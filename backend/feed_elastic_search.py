@@ -8,8 +8,8 @@ from requests_aws4auth import AWS4Auth
 
 
 dynamodb = boto3.resource('dynamodb', region_name='us-east-1',
-                          aws_secret_access_key="*",
-                          aws_access_key_id="*")
+                          aws_secret_access_key="YOUR_AWS_SECRET_ACCESS_KEY",
+                          aws_access_key_id="YOUR_AWS_ACCESS_KEY_ID")
 recipe_table = dynamodb.Table("recipe")
 response = recipe_table.scan()
 

@@ -30,7 +30,6 @@ def lambda_handler(event, context):
     # fuzziness: allow up to 2 characters to change
     # fuzzy_max_expansions: expand up to 50 characters for fuzzy matches
     # fuzzy_prefix_length: 1 character at the beginning of terms should not be changed for fuzzy matches
-    # TODO: tune query string setting
     json_q = json.dumps({
         "query": {
             "query_string": {
