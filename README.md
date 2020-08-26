@@ -28,5 +28,7 @@ In order to use the app, users must sign in. The authentication process is handl
 
 https://youtu.be/gvp55uJNOP4
 
-APK
+##### APK
+[debug version](app.apk)
+
 
