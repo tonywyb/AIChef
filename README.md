@@ -24,6 +24,7 @@ In order to use the app, users must sign in. The authentication process is handl
 
 
 ##### Architecture
+[](architecture.png)
 
 ##### Demo
 
