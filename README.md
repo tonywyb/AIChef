@@ -9,7 +9,7 @@ AIChef is a recipe-searching app that can help users to find the recipes accordi
 
 The application uses a serverless design. There is no central server that is actively running for the backend. Instead, as shown in the api design below, the frontend communicates with the backends solely through APIGateway, except for authentication with AWS Cognito and uploading photos to S3 buckets. The communications between the frontend and backend AWS services are accomplished using Amplify Framework and AWS Android SDK. All the API calls and functionalities are implemented in lambda functions. The lambda functions are responsible for coordinating other backend resources such as the databases, Elastic search, Clarifai, etc., to fulfill the frontend’s requests and return the result to the frontend in JSON format.
 
-
+![](API_design.jpg)
 
 
 ##### Functionalities
@@ -24,7 +24,7 @@ In order to use the app, users must sign in. The authentication process is handl
 
 
 ##### Architecture
-[](architecture.png)
+![](architecture.png)
 
 ##### Demo
 
