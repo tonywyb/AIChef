@@ -1,0 +1,15 @@
+{
+    "aichefenv": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-aichef-aichefenv-213647-authRole",
+            "UnauthRoleArn": "arn:aws:iam::440582015294:role/amplify-aichef-aichefenv-213647-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::440582015294:role/amplify-aichef-aichefenv-213647-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-aichef-aichefenv-213647-deployment",
+            "UnauthRoleName": "amplify-aichef-aichefenv-213647-unauthRole",
+            "StackName": "amplify-aichef-aichefenv-213647",
+            "StackId": "arn:aws:cloudformation:us-east-1:440582015294:stack/amplify-aichef-aichefenv-213647/1a2f3db0-6982-11ea-8e27-12342204bca9",
+            "AmplifyAppId": "d3u4bu9n7fj3j"
+        }
+    }
+}
