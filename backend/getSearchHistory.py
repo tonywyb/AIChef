@@ -3,7 +3,6 @@ import boto3
 
 
 def lambda_handler(event, context):
-    # TODO implement
     user_id = event["user_id"]
     dynamodb = boto3.resource('dynamodb', region_name='us-east-1',
                               aws_secret_access_key="YOUR_AWS_SECRET_ACCESS_KEY",
