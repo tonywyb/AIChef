@@ -2,7 +2,7 @@
 
 ##### Abstract
 
-AIChef is a recipe-searching app that can help users to find the recipes according to the ingredients you have. The app can recognize the ingredients the users have through a photo and search for the desired recipes in the database. Users can also add recipes to their favourites and manage their favourite recipes. The 10 latest search histories are also saved and accessible by the user.
+AIChef is a recipe-searching app that can help users to find the recipes according to the ingredients they have. The app can recognize the ingredients the users have through a photo and search for the desired recipes in the database. Users can also add recipes to their favourites and manage their favourite recipes. The 10 latest search histories are also saved and accessible by the user.
 
 
 ##### Design
